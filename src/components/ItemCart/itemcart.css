@@ -3,9 +3,35 @@
     border-bottom: 3px solid grey;
     max-width: 800px;
     margin: 3rem auto;
+    text-align: center;
 }
 
 .itemCart img {
     width: 400px;
-    margin-right: 1rem;
+    margin-right: 3rem;
+}
+
+.remover {
+    background-color: #eb1010; /* Green */
+  border: none;
+  color: white;
+  padding: 16px 32px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  margin: 4px 2px;
+  transition-duration: 0.4s;
+  cursor: pointer;
+}
+
+.remover-animacion {
+    background-color: white; 
+  color: black; 
+  border: 2px solid #eb1010;
+}
+
+.remover-animacion:hover {
+    background-color: #eb1010;
+    color:white;
 }

@@ -1,7 +1,63 @@
 .counter {
     width: fit-content;;
-    background-color: gold;
+    background-color: rgb(248, 242, 242);
     margin: auto;
-    padding: 1rem;
+    padding: 2rem;
     text-align: center;
+}
+
+.contador-1 {
+    background-color: #ec1d0e; /* Green */
+  border: none;
+  color: white;
+  padding: 16px 32px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  margin: 4px 2px;
+  transition-duration: 0.4s;
+  cursor: pointer;
+}
+.contador-2 {
+    background-color: #4CAF50; /* Green */
+  border: none;
+  color: white;
+  padding: 16px 32px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  margin: 4px 2px;
+  transition-duration: 0.4s;
+  cursor: pointer;
+}
+.numero {
+    margin: 1rem;
+    font-size: 25px;
+}
+
+.contador-final {
+    background-color: #6f4caf; /* Green */
+  border: none;
+  color: white;
+  padding: 16px 32px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  margin: 4px 2px;
+  transition-duration: 0.4s;
+  cursor: pointer;
+}
+
+.contador-animacion {
+    background-color: white; 
+  color: black; 
+  border: 2px solid #6f4caf;
+}
+
+.contador-animacion:hover {
+    background-color: #6f4caf;
+    color:white;
 }
