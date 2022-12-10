@@ -35,6 +35,7 @@
 .numero {
     margin: 1rem;
     font-size: 25px;
+    font-weight: 600;
 }
 
 .contador-final {
